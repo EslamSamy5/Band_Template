@@ -1,0 +1,406 @@
+*,body,html {
+    padding:0;
+    margin:0;
+}
+
+body{
+    font-family:"lato",sans-serif;
+    font-size:15px;
+    line-height:1.5;
+    display:block;
+}
+
+.header{
+    background-color:black;
+    width:100%;
+    color:white;
+    height:51px;
+}
+
+.header nav {
+    width:100%;
+}
+
+.nav-link {
+    color:white;
+    transition:0.5s all ease-in-out;
+    line-height:35px;
+    font-size:18px;
+    font-weight: 350;
+    text-transform:uppercase;
+  
+}
+ 
+.header a {
+    text-align: center
+}
+
+.nav-link:hover{
+    background-color:#ccc;
+    color:black;
+    cursor:pointer;
+}
+
+.dropdown-menu{
+    background-color:white;
+    color:black;
+    cursor:pointer;
+    
+}
+
+.bar {
+    display:black;
+    width:70%
+}
+.fa-search{
+    color:white;
+    line-height:48px;
+    float:right;
+    right:0;
+    cursor: pointer;
+    height: 100%;
+    font-size:20px;
+}
+
+.fa-search:hover {
+    background-color:red;
+    width:5%;
+
+}
+
+@media screen and (max-width:768px)
+{
+    .bar{
+        float:left;
+        width:5%;
+        top:0;
+    }
+
+    .fa-search:hover{
+        width:100%;
+        background-color:black;
+    }
+}
+
+.clear{
+    clear: both;
+}
+
+/* Start Slide Section */
+.slider{
+    width:100%;
+    height:100%;
+    overflow:hidden;
+    margin-top:0
+}
+
+.carousel-item img {
+    background-size:cover;
+    margin-top:0
+
+}
+
+.carousel-item p {
+    font-weight: 700;
+}
+/* End Slide Section */
+
+/* Start About Section */
+.about{
+    width:100%;
+    margin:100px 0;
+}
+
+.about h3{
+    margin:30px 0;
+    text-transform:uppercase;
+    letter-spacing:3px
+}
+
+.about  h4 {
+    font-style: italic;
+    opacity:0.3;
+    font-weight:100;
+    font-size:18px;
+    margin-bottom:20px;
+}
+
+.about p{
+    display:block;
+    text-align:justify;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 168px;
+    margin-inline-end: 168px;
+}
+
+
+.member {
+    margin:30px 0;
+    margin-inline-start: 168px;
+    margin-inline-end: 168px;
+}
+
+.member h5 {
+    margin:15px 0;
+    font-size:15px;  
+}
+
+.member img{
+    width:70%;
+    border-radius:5px;
+}
+
+@media screen and (max-width:768px)
+{
+    .about p {
+        margin-inline-start: 0;
+        margin-inline-end: 0;
+    }
+
+    .member{
+        margin-inline-start: 0;
+        margin-inline-end: 0;
+    }
+
+    .member img{
+        width:100%;
+    }
+}
+
+/* End About Section */
+
+
+/* Start Tour Section */
+.to{
+    background-color: black;
+}
+
+.tour{
+    height:100%;
+    overflow: hidden;
+    margin-bottom: 50px
+}
+.tour h3{
+    margin:30px 0;
+    text-transform:uppercase;
+    letter-spacing:3px;
+    color:white
+}
+
+.tour  h4 {
+    font-style: italic;
+    opacity:0.3;
+    font-weight:100;
+    font-size:18px;
+    margin-bottom:20px;
+    color:white;
+    
+}
+
+.you{
+    text-align: justify;
+    display:block;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 168px;
+    margin-inline-end: 168px;
+    color:white;
+    width:80%;
+    color:black
+}
+
+.badge-danger{
+    font-size:15px;
+    border-radius:0 !important;
+}
+
+.badge-dark{
+color:white !important;
+background-color: black !important;
+font-size:17px;
+border-radius:50%;
+}
+@media screen and (max-width:768px)
+{
+    .you {
+        margin-inline-start: 0;
+        margin-inline-end: 0;
+        width:100%
+    }
+
+    .member{
+        margin-inline-start: 0;
+        margin-inline-end: 0;
+    }
+
+    .member img{
+        width:100%;
+    }
+    
+}
+
+.ticket p,
+.ticket h5,
+.ticket h6
+{
+    color:black;
+    text-align:justify;
+    font-size:15px;
+    margin-bottom:10px;
+    margin-inline-start: 15px;
+    margin-inline-end: 15px;
+}
+
+.ticket{
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 138px;
+    margin-inline-end: 138px;
+}
+
+.thumbnail{
+    margin:30px 0;
+    border:1px solid black !important;
+    height:100%;
+}
+
+.thumbnail img {
+    border:none !important;
+    width:100%
+}
+.thumbnail img:hover{
+    background: linear-gradient(rgba(0,0,0,0.2));
+    cursor:pointer; 
+}
+.thumbnail h5{
+    font-weight: 200;
+    opacity: .5
+}
+
+.thumbnail h6{
+    margin-bottom: 20px;
+}
+
+.thumbnail button{
+    float: left;
+    margin-bottom:10px;
+    margin-inline-start: 15px;
+    margin-inline-end: 15px;
+    background-color: black !important;
+    border-radius:0 !important;
+}
+
+/* End Tour Section */
+
+
+/* Start Contact Section */
+.contact h3{
+    margin-top:100px;
+    margin-bottom:30px;
+    text-transform:uppercase;
+    letter-spacing:3px;
+
+}
+
+.contact  h4 {
+    font-style: italic;
+    opacity:0.3;
+    font-weight:100;
+    font-size:18px;
+    margin-bottom:20px;
+    
+}
+
+.fa-map-marker-alt  {
+    margin-inline-start:50px;
+}
+
+.fa-phone{
+    margin-inline-start:90px;
+}
+
+.fa-envelope{
+    margin-inline-start:105px;
+}
+.contact span{
+    margin-inline-start:20px;
+}
+
+.frist , .area{
+    margin-inline-start:80px
+}
+
+.trg{
+    background-color:black;
+    color:white;
+    margin-bottom:50px;
+}
+
+.fontawesome{
+    color:gray;
+}
+
+.fontawesome i:hover{
+    color:#6e6b6b;
+    cursor:pointer;
+}
+/* End Contact Section */
+
+/* Start Footer Section */
+
+img{
+width:100%;
+overflow: hidden;
+margin:50px 0;
+}
+
+.footer p{
+    font-size:23px;
+    margin-top:20px;  
+    margin-bottom:70px
+}
+
+.footer object{
+	width:35px;
+    height:35px;
+}
+
+/* End Footer Section */
+
+
+/* Start Media Section */
+
+@media screen and (max-width:768px)
+{
+    .ticket{
+        margin-block-start: 0;
+    margin-block-end: 0;
+        margin-inline-start: -30px;
+        margin-inline-end: -30px;
+        padding-bottom: 20px;
+    }
+    .thumbnail{
+        margin-bottom:20px !important;
+        height:530px;
+    }
+
+    .contact{
+        text-align: center;
+    }
+
+    .contact p , .contact i {
+        margin-inline-start:40px;
+        text-align: justify;
+    }
+
+    .first{
+        margin-inline-start: 0;
+        text-align: justify
+    }
+
+    .second{
+        margin-inline-start: 80px;
+    }
+
+}
